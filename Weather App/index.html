@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/profile.jpeg">
+</head>
+<body>
+    <div class="card">
+        <h1 class="heading">Weather App</h1>
+        <div class="search">
+            <input type="text" placeholder="Enter City Name" spellcheck="true">
+            <button><img src="images/search.png" alt=""></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name.</p>
+        </div>
+        <div class="weather">
+            <img src="images/rain.png"class="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New York</h2>
+
+            <div class="details">   <!-- Humidity, wind-->
+                <div class="col">   <!--Humidity-->
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">    <!--Wind speed-->
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <div class="col">    <!--Feels Like-->
+                    <img src="images/feelsLike.png" id="feelslikeIcon"> 
+                    <div>
+                        <p class="feelsLike">15 km/h</p>
+                        <p>Feels Like</p>
+                    </div>
+                </div>
+                <div class="col">    <!--Pressure-->
+                    <img src="images/pressure.png" id="pressureIcon"> 
+                    <div>
+                        <p class="pressure">15 km/h</p>
+                        <p>Pressure</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
