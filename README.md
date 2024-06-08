@@ -1,2 +1,2 @@
 # Javascript-Projects
-Set of basic javascript projects.
+Set of some javascript projects.
